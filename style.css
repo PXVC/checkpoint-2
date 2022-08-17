@@ -1,0 +1,61 @@
+body {
+	font-family: sans-serif;
+}
+
+.logo {
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+a {
+	color: rgb(80, 44, 163);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+input:not([type="button"]) {
+	margin-bottom: 40px;
+	height: 30px;
+	width: 330px;
+	border: none;
+	border-bottom: 1px solid #000;
+	outline: none;
+	transition: border-bottom-color 0.2s;
+}
+
+input[type="button"] {
+	margin-top: 40px;
+	height: 40px;
+	width: 335px;
+	border: none;
+	outline: none;
+	color: #fff;
+	background-color: rgb(80, 44, 163);
+	border-radius: 50px;
+	cursor: pointer;
+	transition: opacity 0.2s;
+}
+
+input[type="button"]:hover {
+	opacity: 0.8;
+}
+
+input:not([type="button"]):focus {
+	border-bottom-color: rgb(80, 44, 163);
+}
+
+i:hover {
+	color: rgb(80, 44, 163);
+	cursor: pointer;
+}
+
+p {
+	text-align: center;
+}
